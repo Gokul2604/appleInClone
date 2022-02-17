@@ -1,0 +1,208 @@
+/**********************************************TAG SELECTORS**********************************************/
+
+body {
+    background-color: white;
+    font-family: 'Raleway';
+}
+
+a {
+    text-decoration: none;
+}
+
+#title-offer-sec p {
+    display: inline;
+    
+}
+
+.title-desc h1, .product-1-desc h1, .product-2-desc h1, .card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2 {
+    font-family: 'Roboto';
+    font-size: 55px;
+}
+
+.product-1-desc h1 {
+    color: white;
+}
+
+.product-1-desc h3 {
+    color: rgb(245, 177, 222);
+}
+
+.card-1 p, .card-1 h4 {
+    color: red;
+}
+
+.card-1 p {
+    padding-top: 10px;
+}
+
+.card-2 h2 {
+    padding-top: 50px;
+}
+
+.card-4 h2 {
+    padding-top: 50px;
+}
+
+.card-5 h3 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.card-5 h4 {
+    margin-bottom: 20px;
+}
+
+/**********************************************CLASS SELECTORS**********************************************/
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.my-nav {
+    margin: auto;
+    color: #f5f5f7;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title-desc, .product-2-desc {
+    margin-top: 50px;
+}
+
+.title-link, .product-1-link, .product-2-link, .card-1-link, .card-2-link, .card-3-link {
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+.title-img {
+    width: 40%;
+}
+
+.title-2-img, .iphone-13-1-img, .iphone-13-2-img {
+    display: none;
+}
+
+.product-1-desc {
+    margin-top: 10px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.product-1-link {
+    color: rgb(49, 136, 250);
+}
+
+.product-1-img {
+    width: 60%;
+}
+
+.product-2-img {
+    width: 70%;
+}
+
+.row {
+    margin: 10px;
+}
+
+.card-1, .card-4 {
+    background-color: #f3f3f3;
+}
+
+.card-1-img {
+    width: 100%;
+    margin-top: 85px;
+}
+
+.card-2-img {
+    width: 90%;
+    margin-top: 60px;
+}
+
+.card-3-img {
+    width: 100%;
+}
+
+.card-4-img {
+    margin-top: 50px;
+    width: 80%;
+}
+
+.card-5-img {
+    width: 100%;
+}
+
+.card-5 {
+    background-color: rgb(241, 202, 200);
+}
+
+.card-6-img {
+    width: 100%;
+}
+
+.top-section, .bottom-section, #footer-section {
+    width: 60%;
+    margin: auto;
+    font-size: 12px;
+}
+
+/**********************************************ID SELECTORS**********************************************/
+
+#title-offer-sec {
+    text-align: center;
+    background-color: rgb(241, 238, 238);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#title, #product-2 {
+    text-align: center;
+}
+
+#product-1 {
+    background-color: #32283b;
+    text-align: center;
+}
+
+#other-products {
+    text-align: center;
+}
+
+#statement-section {
+    text-align: left;
+    margin-top: 30px;
+}
+
+/**********************************************MEDIA QUERIES**********************************************/
+
+@media (max-width: 730px) {
+    .title-img {
+        display: none;
+    }
+
+    .title-2-img {
+        display: inline;
+        width: 100%;
+    }
+
+    .product-1-img {
+        display: none;
+    }
+
+    .iphone-13-1-img, .iphone-13-2-img {
+        display: inline;
+        width: 100%;
+    }
+
+    .iphone-13-2-img {
+        margin-top: 50px;
+    }
+
+}
